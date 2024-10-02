@@ -1,3 +1,5 @@
+# Slot Machine Game 
+
 import random
 
 def spin_row():

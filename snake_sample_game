@@ -1,3 +1,5 @@
+# Snake Game
+
 from tkinter import *
 import random
 
@@ -10,6 +12,7 @@ SNAKE_COLOR = "#FFC0CB"
 FOOD_COLOR = "#FF0000"
 BACKGROUND_COLOR = "#FFB6C1"
 
+# Classes 
 
 class Snake:
 
@@ -124,6 +127,8 @@ def game_over():
     canvas.create_text(canvas.winfo_width()/2, canvas.winfo_height()/2,
                        font=('consolas',70), text="GAME OVER", fill="red", tag="gameover")
 
+
+# Windows
 
 window = Tk()
 window.title("snake kokwet by mary")
