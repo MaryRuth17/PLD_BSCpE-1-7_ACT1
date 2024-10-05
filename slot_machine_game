@@ -33,7 +33,7 @@ def main():
         bet = int(bet)
 
         if bet > balance:
-            print("kulang pera mo")
+            print("invalid amount")
             continue
 
         if bet <= 0:
